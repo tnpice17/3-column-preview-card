@@ -1,0 +1,152 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.container {
+    width: 55%;
+    margin: 180px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px;
+    height: 540px;
+}
+
+img {
+    margin: 40px 40px 10px 40px;
+}
+
+.box {
+    font-family: Big Shoulders Display;
+    color: white;
+}
+
+.first {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.first h1 {
+    margin-left: 45px;
+}
+
+.first p {
+    font-family: Lexend Deca;
+    margin-left: 45px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.but1 {
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    margin: 70px 0 0 45px;
+    padding: 12px 25px;
+    color: hsl(31, 77%, 52%);
+    font-family: Lexend Deca;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.but1:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 1px solid white;
+}
+
+.second {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.second h1 {
+    margin-left: 45px;
+}
+
+.second p {
+    font-family: Lexend Deca;
+    margin-left: 45px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.but2 {
+    letter-spacing: 1px;
+    font-family: Lexend Deca;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin: 70px 0 0 45px;
+    padding: 12px 25px;
+    color: hsl(184, 100%, 22%);
+    font-weight: 600;
+}
+
+.but2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 1px solid white;
+}
+
+.third {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+.third h1 {
+    margin-left: 45px;
+}
+
+.third p {
+    font-family: Lexend Deca;
+    margin-left: 45px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.but3 {
+    letter-spacing: 1px;
+    font-family: Lexend Deca;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin: 70px 0 0 45px;
+    padding: 12px 25px;
+    color: hsl(179, 100%, 13%);
+    font-weight: 600;
+}
+
+.but3:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: 1px solid white;
+}
+
+@media screen and (max-width: 375px){
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+    }
+
+    .first {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .third {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .but1 {
+        margin-bottom: 70px;
+    }
+
+    .but2 {
+        margin-bottom: 70px;
+    }
+
+    .but3 {
+        margin-bottom: 70px;
+    }
+}
